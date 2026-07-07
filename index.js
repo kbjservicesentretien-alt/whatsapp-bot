@@ -24,7 +24,8 @@ app.post("/webhook", (req, res) => {
   res.sendStatus(200);
 });
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
   console.log("Serveur lancé sur le port", PORT);
 });
